@@ -1,9 +1,8 @@
-
 /*
 ---
 name: Picker.Date
 description: Creates a DatePicker, can be used for picking years/months/days and time, or all of them
-authors: [Arian Stolwijk, Alexander Duschek, Eva Lösch]
+authors: Arian Stolwijk
 requires: [Picker, Picker.Attach, Locale.en-US.DatePicker, More/Locale, More/Date]
 provides: Picker.Date
 ...

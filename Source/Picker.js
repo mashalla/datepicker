@@ -2,7 +2,7 @@
 ---
 name: Picker
 description: Creates a Picker, which can be used for anything
-authors: [Arian Stolwijk, Alexander Duschek, Eva Lösch]
+authors: Arian Stolwijk
 requires: [Core/Element.Dimensions, Core/Fx.Tween, Core/Fx.Transitions]
 provides: Picker
 ...
@@ -62,7 +62,7 @@ var Picker = new Class({
 		}
 
 		// Build the header
-		var header = this.header = new Element('div.header').inject(picker);
+		var header = this.header = new Element('div.heading').inject(picker);
 
 		var title = this.title = new Element('div.title').inject(header);
 		var titleID = this.titleID = 'pickertitle-' + String.uniqueID();
@@ -87,7 +87,7 @@ var Picker = new Class({
 		}
 
 		// oldContents and newContents are used to slide from the old content to a new one.
-		var slider = this.slider = new Element('div.slider', {
+		var slider = this.slider = new Element('div.slide', {
 			styles: {
 				position: 'absolute',
 				top: 0,

@@ -12,25 +12,25 @@
 
 /* header
 ********************************************************/
-.datepicker_dashboard .header {
+.datepicker_dashboard .heading {
 	position: relative;
 	height: 15px;
 	margin-bottom: 5px;
 	padding-top: 1px;
 }
 
-.datepicker_dashboard .header .title {
+.datepicker_dashboard .heading .title {
 	text-align: center;
 	margin: 2px 18px 0 18px;
 }
 
-.datepicker_dashboard .header .titleText {
+.datepicker_dashboard .heading .titleText {
 	color: #ccff00;
 }
 
-.datepicker_dashboard .header .previous,
-.datepicker_dashboard .header .next,
-.datepicker_dashboard .header .closeButton {
+.datepicker_dashboard .heading .previous,
+.datepicker_dashboard .heading .next,
+.datepicker_dashboard .heading .closeButton {
 	position: absolute;
 	cursor: pointer;
 	text-indent: 4px;
@@ -43,26 +43,26 @@
 	background-repeat: no-repeat;
 }
 
-.datepicker_dashboard .header .previous {
+.datepicker_dashboard .heading .previous {
 	left: 4px;
 }
-.datepicker_dashboard .header .previous:hover {
+.datepicker_dashboard .heading .previous:hover {
 	background-position: left bottom;
 }
-.datepicker_dashboard .header .next {
+.datepicker_dashboard .heading .next {
 	right: 4px;
 	background-position: -13px top;
 }
-.datepicker_dashboard .header .next:hover {
+.datepicker_dashboard .heading .next:hover {
 	background-position: -13px bottom;
 }
-.datepicker_dashboard .header .closeButton {
+.datepicker_dashboard .heading .closeButton {
 	display: none;
 	right: 0px;
 	top: 0px;
 	background-position: right top;
 }
-.datepicker_dashboard .header .closeButton:hover {
+.datepicker_dashboard .heading .closeButton:hover {
 	background-position: right bottom;
 }
 
