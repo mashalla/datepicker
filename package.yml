@@ -1,7 +1,7 @@
 name: Accessible DatePicker
 author: mashalla
-current: 1.0
 category: Widgets
+current: 1.0
 tags: [Datepicker, Calendar, Picker, Accessible, Screen Reader]
 #docs: http://no-docs.de
 demo: http://mashalla.github.com/datepicker
