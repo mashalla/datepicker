@@ -3,7 +3,7 @@ Accessible DatePicker
 
 The accessible DatePicker is based on a DatePicker Widget of Arian Stolwijk (http://mootools.net/forge/p/mootools_datepicker). It has enhanced accessible features like keyboard navigation and screen reader support.
 
-![Screenshot](https://github.com/arian/mootools-datepicker/raw/master/screenshot.png)
+![Screenshot](http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/WidgetThumbs/Datepicker.png)
 
 How to use
 ----------

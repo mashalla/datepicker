@@ -1,10 +1,10 @@
 name: Accessible DatePicker
 author: mashalla
 category: Widgets
-current: 1.0
+current: 1.1
 tags: [Datepicker, Calendar, Picker, Accessible, Screen Reader]
-#docs: http://no-docs.de
-demo: http://mashalla.github.com/datepicker
+#docs: http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/index.html
+demo: http://www.accessiblemootoolsdemo.iao.fraunhofer.de/Mootools_Widgets/index.html
 
 
 sources:
