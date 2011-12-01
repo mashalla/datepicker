@@ -1,0 +1,219 @@
+.datepicker_aegis {
+	margin-top:10px;
+	position: absolute;
+	font-size: 10px;
+	font-family: "Lucida Grande", LucidaGrande, "Lucida Sans", Geneva, Verdana, sans-serif;
+	color: #333333;
+	line-height: normal;
+	width: 180px;
+	height: 120px;
+	padding: 5px;
+	background-color: #efefef;
+	-moz-border-radius: 6px 6px 6px 6px;
+	-webkit-border-radius: 6px 6px 6px 6px;
+	border-radius: 6px 6px 6px 6px;
+	-moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+/* header
+ ********************************************************/
+.datepicker_aegis .heading {
+	position: relative;
+	height: 15px;
+	margin-bottom: 5px;
+	padding-top: 1px;
+}
+.datepicker_aegis .heading .title {
+	text-align: center;
+	margin: 2px 18px 0 18px;
+}
+.datepicker_aegis .heading .titleText {
+	color: #333333;
+}
+.datepicker_aegis .heading .previous, .datepicker_aegis .heading .next, .datepicker_aegis .heading .closeButton {
+	position: absolute;
+	cursor: pointer;
+	text-indent: 4px;
+	overflow: hidden;
+	width: 12px;
+	height: 12px;
+	top: 2px;
+	background-image: url(buttons.png);
+	background-position: left top;
+	background-repeat: no-repeat;
+}
+.datepicker_aegis .heading .previous {
+	left: 4px;
+}
+.datepicker_aegis .heading .previous:hover {
+	background-position: left bottom;
+}
+.datepicker_aegis .heading .next {
+	right: 4px;
+	background-position: -13px top;
+}
+.datepicker_aegis .heading .next:hover {
+	background-position: -13px bottom;
+}
+.datepicker_aegis .heading .closeButton {
+	display: none;
+	right: 0px;
+	top: 0px;
+	background-position: right top;
+}
+.datepicker_aegis .heading .closeButton:hover {
+	background-position: right bottom;
+}
+/* body
+ ********************************************************/
+.datepicker_aegis .body {
+	position: relative;
+	padding:2px;
+	top: 0px;
+	left: 2px;
+	width: 175px;
+	height: 112px;
+	overflow: hidden;
+}
+/* time
+ ********************************************************/
+.datepicker_aegis .time {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.datepicker_aegis .time .hour, .datepicker_aegis .time .separator, .datepicker_aegis .time .minutes {
+	background: #333;
+	border: 0px;
+	width: 50px;
+	font-size: 32px;
+	color: #fff;
+	position: absolute;
+	top: 10px;
+	text-align: center;
+	padding: 2px;
+}
+.datepicker_aegis .time .hour {
+	left: 15px;
+}
+.datepicker_aegis .time .separator {
+	background: transparent;
+	width: 10px;
+	left: 76px;
+}
+.datepicker_aegis .time .minutes {
+	left: 95px;
+}
+.datepicker_aegis .time .ok {
+	position: absolute;
+	top: 65px;
+	height: 32px;
+	width: 136px;
+	left: 15px;
+	font-size: 20px;
+}
+/* days-grid
+ ********************************************************/
+.datepicker_aegis .days {
+	padding-left:1px;
+}
+.datepicker_aegis .days .day {
+	float: left;
+	text-align: center;
+	overflow: hidden;
+	width: 25px;
+	height: 14px;
+	font-weight: normal;
+}
+.datepicker_aegis .days .titles {
+	height: 15px;
+	margin-bottom: 2px;
+	text-transform: uppercase;
+	color: #333333;
+}
+.datepicker_aegis .days .day0 {
+	margin-right: 0;
+}
+.datepicker_aegis .days .week5 .day {
+	margin-bottom: 0;
+}
+/* days-colors
+ ********************************************************/
+.datepicker_aegis .days .week .day {
+	cursor: pointer;
+}
+.datepicker_aegis .days .week .day:hover {
+	color: #cc0000;
+}
+.datepicker_aegis .days .otherMonth {
+	color: #aaaaaa;
+}
+.datepicker_aegis .days .selected {
+	color: #cc0000;
+}
+/* months-grid
+ ********************************************************/
+.datepicker_aegis .months .month {
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	padding-top: 3px;
+	width: 55px;
+	overflow: hidden;
+	height: 21px;
+	margin: 0 1px 1px 0;
+}
+.datepicker_aegis .months .month3, .datepicker_aegis .months .month6, .datepicker_aegis .months .month9, .datepicker_aegis .months .month12 {
+	margin-right: 0;
+}
+.datepicker_aegis .months .month10, .datepicker_aegis .months .month11, .datepicker_aegis .months .month12 {
+	margin-bottom: 0;
+}
+/* months-colors
+ ********************************************************/
+.datepicker_aegis .months .month:hover {
+	color: #cc0000;
+}
+.datepicker_aegis .months .selected {
+	color: #cc0000;
+}
+/* years-grid
+ ********************************************************/
+.datepicker_aegis .years .year {
+	float: left;
+	cursor: pointer;
+	text-align: center;
+	padding-top: 3px;
+	width: 32px;
+	overflow: hidden;
+	height: 21px;
+	margin: 0 1px 1px 0;
+}
+.datepicker_aegis .years .year4, .datepicker_aegis .years .year9, .datepicker_aegis .years .year14, .datepicker_aegis .years .year19 {
+	margin-right: 0;
+}
+.datepicker_aegis .years .year15, .datepicker_aegis .years .year16, .datepicker_aegis .years .year17, .datepicker_aegis .years .year18, .datepicker_aegis .years .year19 {
+	margin-bottom: 0;
+}
+/* years-colors
+ ********************************************************/
+.datepicker_aegis .years .year:hover {
+	color: #cc0000;
+}
+.datepicker_aegis .years .selected {
+	color: #cc0000
+}
+/* global
+ ********************************************************/
+.datepicker_aegis .unavailable {
+	color: #533 !important;
+	cursor: default !important;
+	text-decoration: line-through;
+}
+.datepicker_aegis table {
+	border-spacing: 0;
+}
+.datepicker_aegis th, .datepicker_aegis td {
+	padding: 0;
+}
